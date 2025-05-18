@@ -9,4 +9,6 @@ class Form1(Form1Template):
     my_message = 'You just clicked the button!'
     alert(my_message) 
 
+  # master
+
  
