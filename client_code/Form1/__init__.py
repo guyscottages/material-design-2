@@ -5,9 +5,17 @@ class Form1(Form1Template):
   def __init__(self, **properties):
     self.init_components(**properties)
 
-  def button_1_click(self, **event_args):
-    my_message = 'You just clicked the button!'
-    alert(my_message) 
-  # b 3
+  '''
+  def text_box_1_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
+  '''
+
+
+  def text_box_1_pressed_enter(self, **event_args):
+    my_message = self.text_box_1.text
+    alert('You typed: ' + my_message)
+
+
 
  
