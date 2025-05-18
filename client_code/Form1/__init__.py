@@ -8,5 +8,6 @@ class Form1(Form1Template):
   def button_1_click(self, **event_args):
     my_message = 'You just clicked the button!'
     alert(my_message) 
+  # b 3
 
  
