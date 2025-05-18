@@ -3,7 +3,7 @@ components:
   - event_bindings: {click: button_1_click}
     layout_properties: {grid_position: 'LEBRWR,HXCAYY'}
     name: button_1
-    properties: {text: button_1}
+    properties: {role: primary-color, text: Click Me, visible: true}
     type: Button
   layout_properties: {slot: default}
   name: content_panel
