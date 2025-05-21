@@ -11,10 +11,19 @@ class Form1(Form1Template):
     pass
   '''
 
-
+  '''
   def text_box_1_pressed_enter(self, **event_args):
     my_message = self.text_box_1.text
     alert('You typed: ' + my_message)
+  '''
+
+  def button_1_click(self, **event_args):
+    name = self.text_box_1.text
+    alert('Hi ' + name + '!')
+    self.text_box_1.text = ''
+    self.text_box_1.focus()
+
+
 
 
 
