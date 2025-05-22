@@ -1,6 +1,6 @@
 allow_embedding: false
-name: Material Design 2
-package_name: Material_Design_2
+name: 02 Alert
+package_name: _02_Alert
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
